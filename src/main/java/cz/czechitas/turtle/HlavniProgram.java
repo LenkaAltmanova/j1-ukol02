@@ -42,6 +42,7 @@ public class HlavniProgram {
     }
 
     public void nakresliObdelnik(double velikostStr){
+        zofka.turnRight(50);
         for(int i = 0; i < 2; i++) {
             zofka.move(velikostStr);
             zofka.turnRight(90);
