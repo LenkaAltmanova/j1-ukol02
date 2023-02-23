@@ -32,12 +32,21 @@ public class HlavniProgram {
         zofka.setLocation(590,260);
         nakresliKruh(10);
         //sněhulák
+        zofka.turnLeft(15);
         zofka.setLocation(750,320);
         nakresliRovnoramennyTrojuhelnik(100);
+        zofka.turnLeft(5);
         zofka.setLocation(750,400);
         nakresliObdelnik(100);
-        zofka.setLocation(780,450);
+        zofka.setLocation(780,440);
         nakresliKruh(10);
+        zofka.setLocation(880,420);
+        nakresliKruh(10);
+        zofka.setLocation(980,360);
+        nakresliKruh(18);
+        zofka.turnLeft(80);
+        zofka.setLocation(950,200);
+        nakresliObdelnik(100);
 
     }
 
