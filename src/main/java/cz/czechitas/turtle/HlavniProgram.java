@@ -26,6 +26,7 @@ public class HlavniProgram {
         nakresliKruh(10);
         //sněhulák
 
+
         zofka.turnLeft(15);
         zofka.setLocation(750, 320);
         nakresliRovnoramennyTrojuhelnik(100);
