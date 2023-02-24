@@ -13,6 +13,7 @@ public class HlavniProgram {
         nakresliRovnostrannyTrojuhelnik(180);
         zofka.turnRight(10);
         //zmrzlina
+
         zofka.setLocation(400, 100);
         nakresliKruh(20);
         zofka.setLocation(420, 190);
@@ -24,6 +25,7 @@ public class HlavniProgram {
         zofka.setLocation(590, 260);
         nakresliKruh(10);
         //sněhulák
+
         zofka.turnLeft(15);
         zofka.setLocation(750, 320);
         nakresliRovnoramennyTrojuhelnik(100);
